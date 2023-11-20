@@ -1,0 +1,34 @@
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-d {
+  padding: 5px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.btn-br1 {
+  border-radius: 5px;
+}
+
+.btn-br2 {
+  border-radius: 10px;
+}
+
+.btn-br3 {
+  border-radius: 15px;
+}
+
+.btn-submit {
+  background-color: rgba(81, 241, 60, 0.911);
+}/*# sourceMappingURL=index.css.map */
