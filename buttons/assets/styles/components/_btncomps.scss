@@ -1,0 +1,52 @@
+// Default settings
+.btn-d {
+  padding: 5px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1em;
+  margin: 10px 0; // for display, remove it if u don't need it
+  transition: 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+  }
+}
+// Border radius
+.btn-br1 {
+  border-radius: 5px;
+}
+.btn-br2 {
+  border-radius: 10px;
+}
+.btn-br3 {
+  border-radius: 15px;
+}
+// BTN COLOR
+.btn-ok {
+  background-color: rgba(81, 241, 60, 0.911);
+}
+.btn-no {
+  background-color: rgba(248, 0, 0, 0.952);
+  a {
+    color: rgba(240, 248, 255, 0.918);
+  }
+  &:hover {
+    a {
+      color: aliceblue;
+    }
+  }
+}
+// BTN HOVER with shadow effect
+.shadeff1 {
+  &:hover {
+    box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
+    transition: 0.3s ease-in-out;
+  }
+}
+.shadeff2 {
+  box-shadow: 1px 5px 9px 0px rgba(0, 0, 0, 0.658);
+  &:hover {
+    box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
+    transition: 0.3s ease-in-out;
+  }
+}

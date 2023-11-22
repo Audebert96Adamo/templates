@@ -5,6 +5,7 @@ body {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -15,6 +16,10 @@ a {
   letter-spacing: 0.5px;
   font-size: 1em;
   margin: 10px 0;
+  transition: 0.3s ease-in-out;
+}
+.btn-d:hover {
+  cursor: pointer;
 }
 
 .btn-br1 {
@@ -29,6 +34,29 @@ a {
   border-radius: 15px;
 }
 
-.btn-submit {
+.btn-ok {
   background-color: rgba(81, 241, 60, 0.911);
+}
+
+.btn-no {
+  background-color: rgba(248, 0, 0, 0.952);
+}
+.btn-no a {
+  color: rgba(240, 248, 255, 0.918);
+}
+.btn-no:hover a {
+  color: aliceblue;
+}
+
+.shadeff1:hover {
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
+  transition: 0.3s ease-in-out;
+}
+
+.shadeff2 {
+  box-shadow: 1px 5px 9px 0px rgba(0, 0, 0, 0.658);
+}
+.shadeff2:hover {
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
+  transition: 0.3s ease-in-out;
 }/*# sourceMappingURL=index.css.map */
