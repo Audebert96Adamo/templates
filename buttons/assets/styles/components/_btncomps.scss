@@ -5,6 +5,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 1em;
+  font-weight: 700;
   margin: 10px 0; // for display, remove it if u don't need it
   transition: 0.3s ease-in-out;
   &:hover {
@@ -34,19 +35,5 @@
     a {
       color: aliceblue;
     }
-  }
-}
-// BTN HOVER with shadow effect
-.shadeff1 {
-  &:hover {
-    box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
-    transition: 0.3s ease-in-out;
-  }
-}
-.shadeff2 {
-  box-shadow: 1px 5px 9px 0px rgba(0, 0, 0, 0.658);
-  &:hover {
-    box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
-    transition: 0.3s ease-in-out;
   }
 }
