@@ -1,6 +1,6 @@
 // Default settings
 .btn-d {
-  width: 10rem;
+  width: 7rem;
   height: 2rem;
   font-size: 1em;
   font-weight: 700;
@@ -14,15 +14,20 @@
     cursor: pointer;
   }
 }
+// Mobile nav btn
+.mob-btn {
+  width: 30px;
+  height: 30px;
+}
 // Border radius
 .btn-br1 {
-  border-radius: 5px;
+  border-radius: 2.5px;
 }
 .btn-br2 {
-  border-radius: 10px;
+  border-radius: 7.5px;
 }
 .btn-br3 {
-  border-radius: 15px;
+  border-radius: 30px;
 }
 // BTN COLOR
 .btn-ok {
@@ -30,6 +35,17 @@
 }
 .btn-no {
   background-color: rgba(248, 0, 0, 0.952);
+  a {
+    color: rgba(240, 248, 255, 0.918);
+  }
+  &:hover {
+    a {
+      color: aliceblue;
+    }
+  }
+}
+.btn-blue {
+  background-color: rgb(0, 136, 248);
   a {
     color: rgba(240, 248, 255, 0.918);
   }
