@@ -30,12 +30,21 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
-ul li a:hover {
-  color: rgb(243, 176, 95);
+
+.br1 {
+  border-radius: 2.5px;
 }
-ul li a i {
-  font-size: 1.2rem;
-  padding: 10px;
+
+.br2 {
+  border-radius: 7.5px;
+}
+
+.br3 {
+  border-radius: 30px;
+}
+
+.tempbox {
+  margin: 20px 0;
 }
 
 .shadow1 {
@@ -65,7 +74,7 @@ ul li a i {
   margin: 0 5px;
 }
 .socials-shadhov1 ul li a i {
-  border-radius: 10000%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: 0.5s ease-in-out;
 }
 .socials-shadhov1 ul li a i:hover {
@@ -97,18 +106,6 @@ ul li a i {
   height: 30px;
 }
 
-.btn-br1 {
-  border-radius: 2.5px;
-}
-
-.btn-br2 {
-  border-radius: 7.5px;
-}
-
-.btn-br3 {
-  border-radius: 30px;
-}
-
 .btn-ok {
   background-color: rgba(81, 241, 60, 0.911);
 }
@@ -138,5 +135,12 @@ ul li a i {
   height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 20px;
+}
+.socials ul li a i {
+  font-size: 1.2rem;
+  border-radius: 10000%;
+  padding: 10px;
+}
+.socials ul li a i:hover {
+  color: rgb(243, 176, 95);
 }/*# sourceMappingURL=index.css.map */

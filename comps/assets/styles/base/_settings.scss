@@ -25,15 +25,17 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  li {
-    a {
-      &:hover {
-        color: rgb(243, 176, 95);
-      }
-      i {
-        font-size: 1.2rem;
-        padding: 10px;
-      }
-    }
-  }
+}
+// Border radius
+.br1 {
+  border-radius: 2.5px;
+}
+.br2 {
+  border-radius: 7.5px;
+}
+.br3 {
+  border-radius: 30px;
+}
+.tempbox {
+  margin: 20px 0;
 }

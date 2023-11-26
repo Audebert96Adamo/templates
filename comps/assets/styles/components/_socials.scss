@@ -1,11 +1,16 @@
 .socials {
   height: fit-content;
   width: fit-content;
-  margin: 20px;
   ul {
     li {
       a {
         i {
+          font-size: 1.2rem;
+          border-radius: 10000%;
+          padding: 10px;
+          &:hover {
+            color: rgb(243, 176, 95);
+          }
         }
       }
     }
