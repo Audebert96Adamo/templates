@@ -2,6 +2,10 @@
 .shadow1 {
   box-shadow: 1px 5px 9px 0px rgba(0, 0, 0, 0.658);
 }
+// inset shadows template
+.insetshadow1 {
+  box-shadow: inset 1px 5px 9px 0px rgba(0, 0, 0, 0.658);
+}
 // shadows with hover
 .shadhov1 {
   &:hover {
@@ -19,5 +23,28 @@
     box-shadow: inset 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
     border: none;
     transition: 0.3s ease-in-out;
+  }
+}
+// social icon shadow
+.socials-shadhov1 {
+  ul {
+    li {
+      margin: 0 5px;
+      a {
+        i {
+          border-radius: 10000%;
+          transition: 0.5s ease-in-out;
+
+          &:hover {
+            box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
+            transition: 0.5s ease-in-out;
+            &:active {
+              box-shadow: inset 1px 3px 7px 0px rgba(0, 0, 0, 0.877);
+              transition: 0.5s ease-in-out;
+            }
+          }
+        }
+      }
+    }
   }
 }
