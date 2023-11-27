@@ -9,10 +9,13 @@ html {
 }
 
 body {
-  max-height: 100vh;
-  max-width: 50vw;
   margin: 0;
   padding: 30px;
+  background-color: rgba(99, 136, 136, 0.692);
+}
+
+.dspflex {
+  display: flex;
 }
 
 a {
@@ -27,20 +30,47 @@ a {
 
 ul {
   list-style: none;
-  display: flex;
   justify-content: space-evenly;
 }
 
 .br1 {
-  border-radius: 2.5px;
+  border-radius: 0.3em;
 }
 
 .br2 {
-  border-radius: 7.5px;
+  border-radius: 0.6em;
 }
 
 .br3 {
-  border-radius: 30px;
+  border-radius: 1em;
+}
+
+.br4 {
+  border-radius: 2em;
+}
+
+.br5 {
+  border-radius: 3em;
+}
+
+.br6 {
+  border-radius: 5em;
+}
+
+.box25 {
+  width: 25%;
+}
+
+.boe50 {
+  width: 50%;
+}
+
+.box75 {
+  width: 75%;
+}
+
+.box100 {
+  width: 100%;
 }
 
 .tempbox {
@@ -133,8 +163,7 @@ ul {
 .socials {
   height: -moz-fit-content;
   height: fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 170px;
 }
 .socials ul li a i {
   font-size: 1.2rem;
@@ -142,5 +171,5 @@ ul {
   padding: 10px;
 }
 .socials ul li a i:hover {
-  color: rgb(243, 176, 95);
+  color: rgb(250, 155, 38);
 }/*# sourceMappingURL=index.css.map */

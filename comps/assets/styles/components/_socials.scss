@@ -1,6 +1,6 @@
 .socials {
   height: fit-content;
-  width: fit-content;
+  width: 170px;
   ul {
     li {
       a {
@@ -9,7 +9,8 @@
           border-radius: 10000%;
           padding: 10px;
           &:hover {
-            color: rgb(243, 176, 95);
+            color: rgb(250, 155, 38);
+            // background-color: rgba(241, 183, 112, 0.308);
           }
         }
       }
