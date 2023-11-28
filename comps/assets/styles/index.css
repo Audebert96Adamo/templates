@@ -6,16 +6,31 @@ html {
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid black;
 }
 
 body {
   margin: 0;
-  padding: 30px;
+  padding: 0px;
   background-color: rgba(99, 136, 136, 0.692);
 }
 
 .dspflex {
   display: flex;
+}
+
+@media (min-width: 500px) {
+  .dspflexbreak {
+    display: flex;
+  }
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.alic {
+  align-items: center;
 }
 
 a {
@@ -57,16 +72,22 @@ ul {
   border-radius: 5em;
 }
 
-.box25 {
-  width: 25%;
+@media (min-width: 500px) {
+  .box25 {
+    width: 25%;
+  }
 }
 
-.boe50 {
-  width: 50%;
+@media (min-width: 500px) {
+  .box50 {
+    width: 50%;
+  }
 }
 
-.box75 {
-  width: 75%;
+@media (min-width: 500px) {
+  .box75 {
+    width: 75%;
+  }
 }
 
 .box100 {
